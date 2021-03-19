@@ -4,6 +4,7 @@ import BestPokemon from "./BestPokemon";
 import CaughtPokemon from "./CaughtPokemon";
 
 function App() {
+  
   return (
     <div>
       <Logo appName="Pokedex" />
