@@ -9,13 +9,12 @@ function App() {
     console.log("I am grateful");
   }
   return (
-    <div>
+    <div className="pokemon-ui-container">
       <Logo appName="Pokedex" handleClick={logWhenClicked} />
       <BestPokemon abilities={["Anticipation", "Adaptability", "Run-Away"]} />
       <CaughtPokemon date={new Date().toLocaleDateString()} />
       <PokemonMovesSelector />
-      <PokemonCity/>
-    
+      <PokemonCity />
     </div>
   );
 }

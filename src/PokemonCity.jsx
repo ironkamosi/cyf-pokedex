@@ -8,7 +8,7 @@ function updateCity(event) {
 }
   return (
     <div>
-      <input type="text" value={city} onChange={updateCity} />
+          <input type="text" value={city} placeholder="Name of city" onChange={updateCity} />
       <p>Welcome to the city of {city.toUpperCase()}</p>
     </div>
   );

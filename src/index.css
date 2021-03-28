@@ -1,4 +1,5 @@
 body {
+  background-color:rgb(14, 12, 22);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +12,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* -----------------POKEMON------------------ */
+
+.pokemon-ui-container{
+  justify-content: center;
+  border: 0.3em blue solid;
+  margin: 2em auto;
+  padding: 2em;
+  width: 70%;
+}
+
+h1{
+/* justify-content: center; */
+font-family: 'Noto Sans JP', sans-serif;
+font-size: 4em;
+font-weight: 900;
+padding: 10em 10em auto;
+color:tomato;
+text-align: center;
+}
+
+img{
+display: block;
+border: 0.3em blue solid;
+margin: 8em auto;
+width: 40%;
+height: 30%;
+background-color: skyblue;
+border-radius: 20%;
+}
+
+p{
+color: turquoise;
+font-family: 'Open Sans', sans-serif;
+font-size: 2em;
+font-weight: 700;
+}
+
+.button-text{
+color: rgb(20, 22, 22);
+font-family: 'Open Sans', sans-serif;
+font-size: 1.5em;
+
+}
+ul{
+list-style: none;
+}
+
+li{
+color: coral;
+font-family: 'Open Sans', sans-serif;
+font-size: 1.5em;
+font-weight: 500;
+}
+
